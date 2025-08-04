@@ -6,7 +6,7 @@ pin = int(input("enter your pin:>>> "))
 if user_pin == pin:
     while option != 4:
         print('''
-        ******OPtions******
+        ******OPTIONS******
             1. Balance
             2. Withdraw
             3. Transfer
@@ -19,7 +19,7 @@ if user_pin == pin:
         elif option == 2:
             withdrawal = int(input("input amount amount:\n>>> #"))
             balance -= withdrawal
-            print("you deposited #",withdrawal)
+            print("you withdrawed #",withdrawal)
             print("your main Balane is: #",balance)
         elif option == 3:
             beneficiary = int(input("Enter Beneficiary account number:\n>>>"))
